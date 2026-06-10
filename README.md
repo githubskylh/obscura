@@ -1,4 +1,20 @@
-<p align="center">
+项目名叫 Obscura，使用 Rust 构建，已狂揽 14600+ GitHub Star。
+
+与 headless Chrome 对比优势明显：
+
+- 内存占用：30MB vs Chrome 的 200MB+，差距 7 倍以上
+- 页面加载：85ms vs Chrome 的 500ms 左右
+- 启动速度：瞬间启动 vs Chrome 的 2 秒
+- 二进制体积：70MB vs Chrome 的 300MB+
+- 内置反检测：自动绕过指纹识别和 tracker 屏蔽，Chrome 完全没有
+
+GitHub：https://github.com/h4ckf0r0day/obscura
+
+而且兼容 Puppeteer 和 Playwright 协议，老项目改一行代码就能直接换上。
+
+另外还可以接入到 Claude Code、Codex 等 AI 工具，让 Agent 拥有真正操作浏览器能力。
+
+适合做爬虫、数据采集、或者想给 AI Agent 接互联网能力的开发者。<p align="center">
   <img src="https://raw.githubusercontent.com/h4ckf0r0day/obscura/main/assets/icon.png" alt="Obscura" width="80" />
 </p>
 
